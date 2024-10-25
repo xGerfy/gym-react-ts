@@ -88,7 +88,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               )}
               <input
                 className={inputStyles}
-                type="text"
+                type="email"
                 placeholder="EMAIL"
                 {...register("email", {
                   required: true,
